@@ -1,0 +1,66 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+body * {
+	font-size: 13px !important;
+	/*font-family: "Helvetica Neue", "A-OTF Shin Go Pr6", "Arial", "sans-serif";*/
+    font-family: "MS Gothic";
+	color: #514f4f;
+	font-size /*\**/: 9px\9; /*IE9*//* background: gray; /* standard */
+}
+form {
+	padding:0;
+	margin:0;
+}
+textarea {
+	/*font-family: "Helvetica Neue", "A-OTF Shin Go Pr6", "Arial", "sans-serif";*/
+}
+body, ul, li, p, dl, dt, dd, pre, a, div {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-weight /*\**/: bold\9;
+	/*line-height: 150%;*/
+	text-decoration: none;
+}
+fieldset, legend {
+	margin: 0px;
+	padding: 0px;
+	font-weight /*\**/: bold\9;
+	/*line-height: 150%;*/
+}
+a img {
+	border: 0;
+}
+a:hover {
+	text-decoration: none;
+}
+ul, li {
+	list-style: none;
+}
+/* IE 6 or less */
+*html body {
+	font-size: 55%;
+}
+/* IE 7 or more */
+*:first-child+ html body {
+	font-size: 40%;
+}
+.addbut {
+	padding-left: 140px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

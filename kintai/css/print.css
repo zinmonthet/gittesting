@@ -1,0 +1,12 @@
+body * {
+    visibility: hidden;
+}
+
+#divToPrint * {
+    visibility: visible;
+}
+
+#divToPrint * {
+    width: 100%;
+    height: 100%;
+}
